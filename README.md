@@ -34,7 +34,7 @@ Welcome to my data analysis portfolio! This repository showcases a collection of
 
 ## 🌟 About Me
 
-I am passionate about data analysis and using insights to drive business decisions. Connect with me on LinkedIn [here](Your LinkedIn Profile Link)!
+I am passionate about data analysis and using insights to drive business decisions. Connect with me on LinkedIn [here](https://www.linkedin.com/in/david-alexander1)!
 
 ## 📧 Contact
 
