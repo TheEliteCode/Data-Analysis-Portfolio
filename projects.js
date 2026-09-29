@@ -117,7 +117,7 @@ window.portfolioProjects = [
   {
     "title": "London bike sharing",
     "type": "Data analysis and visualization",
-    "summary": "Analysis project exploring London bike-sharing data, with notebooks, Tableau visualization, a cleaned spreadsheet and source data.",
+    "summary": "Explored London bike-sharing data using Python and Tableau. The dashboard tracks 2.1 million rides over time with an eight-week moving average, and compares ride activity with temperature and wind speed.",
     "finding": "Open the notebooks, Tableau workbook or dashboard image to review the analysis.",
     "tools": [
       "Python",
