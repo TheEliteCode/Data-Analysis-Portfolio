@@ -62,7 +62,7 @@ window.portfolioProjects = [
   {
     "title": "Medical equipment sales analysis",
     "type": "Sales analysis",
-    "summary": "Analyzed equipment models, disposable products at risk of expiry, customer preferences and competitor strengths for a medical equipment supplier in Ikeja.",
+    "summary": "Analyzed equipment and disposable product sales for a medical supply store in Ikeja, using Excel, Google Sheets, Power BI, SQL, and Tableau. Identified fast-selling machine models, products at risk of expiring due to low demand, customer preferences, and key competitors. The findings helped the company avoid restocking products that were unlikely to sell.",
     "finding": "Product and brand analysis helped inform purchasing decisions and avoid bringing in items unlikely to sell and at risk of damage in storage.",
     "tools": [
       "Excel",
