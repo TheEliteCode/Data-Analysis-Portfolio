@@ -71,12 +71,7 @@ window.portfolioProjects = [
       "SQL",
       "Tableau"
     ],
-    "links": [
-      {
-        "label": "Sales Analyst experience",
-        "url": "#experience"
-      }
-    ]
+    "links": []
   },
   {
     "title": "West Africa health data preparation",
