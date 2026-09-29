@@ -185,9 +185,9 @@ window.portfolioProjects = [
         "label": "Problem statement",
         "url": "https://github.com/TheEliteCode/Data-Analysis-Portfolio/blob/main/Projects/pizza_sales_analysis/Problem%20Statement.txt"
       },
-      {
-        "label": "Dashboard images",
-        "url": "https://github.com/TheEliteCode/Data-Analysis-Portfolio/tree/main/Projects/pizza_sales_analysis/Pizza%20Sales%20Images-20240312T121301Z-001/Pizza%20Sales%20Images"
+     {
+        "label": "View dashboard image",
+        "url": "https://github.com/TheEliteCode/Data-Analysis-Portfolio/blob/main/Projects/pizza_sales_analysis/Pizza%20Sales%20Images-20240312T121301Z-001/Pizza%20Sales%20Images/DASHBOARD.PNG"
       },
       {
         "label": "Raw data folder",
