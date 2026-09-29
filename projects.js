@@ -41,7 +41,7 @@ window.portfolioProjects = [
   {
     "title": "Movie recommendation data pipeline",
     "type": "Microsoft Fabric learning project",
-    "summary": "Built a learning pipeline using user, movie, genre, cast, director, ratings, watch history, user events and subscription data.",
+    "summary": "Built a learning project in Microsoft Fabric to prepare data for personalized movie recommendations. Combined user, movie, genre, cast, director, ratings, watch history, events, and subscription data to explore user preferences.",
     "finding": "Ratings and watch history were used to understand user preferences and support movie recommendations.",
     "tools": [
       "Microsoft Fabric",
