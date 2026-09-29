@@ -76,7 +76,7 @@ window.portfolioProjects = [
   {
     "title": "West Africa health data preparation",
     "type": "Research data project",
-    "summary": "Prepared health data for regional reporting on deteriorating health conditions across West African countries and states, working with a researcher.",
+    "summary": "Contributed data cleaning and transformation to a health data analysis project focused on identifying regions in West Africa with worsening health conditions. Prepared data on hospital deaths, causes, regions, available medicines, hospital types, patient economic class, and access to medical facilities using SQL and Python, with Git for version control and Power BI for reporting.",
     "finding": "Cleaned and transformed data covering hospital deaths, causes, regions, available drugs, hospital types, patient economic class and access to medical facilities. The concluding report was outside my role.",
     "tools": [
       "SQL",
