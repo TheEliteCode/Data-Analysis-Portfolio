@@ -1,236 +1,210 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>TheEliteAlex Portfolio
-		</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="David Alexander is a data analyst in Lagos, Nigeria, working with SQL, Python, Power BI and business data.">
+  <meta name="theme-color" content="#102d3a">
+  <title>David Alexander | Data Analyst</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #172a33;
+      --muted: #52636c;
+      --navy: #102d3a;
+      --teal: #087e83;
+      --teal-light: #dff3f1;
+      --paper: #fbfcfa;
+      --surface: #ffffff;
+      --line: #dce5e3;
+      --max: 1120px;
+      --radius: 18px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: Inter, Aptos, "Segoe UI", Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
+    }
+    a { color: inherit; }
+    a:focus-visible, button:focus-visible { outline: 3px solid #f1bd55; outline-offset: 3px; }
+    .wrap { width: min(var(--max), calc(100% - 44px)); margin-inline: auto; }
+    .topbar { background: var(--navy); color: #f7fbfa; }
+    .nav { min-height: 74px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+    .brand { font-weight: 750; letter-spacing: .01em; text-decoration: none; }
+    .nav-links { display: flex; align-items: center; gap: 28px; }
+    .nav-links a { color: #dce9e8; font-size: .93rem; text-decoration: none; }
+    .nav-links a:hover { color: #fff; }
+    .hero { background: var(--navy); color: white; padding: 80px 0 86px; }
+    .hero-inner { max-width: 850px; }
+    .eyebrow { color: #93d4cf; font-size: .85rem; font-weight: 750; letter-spacing: .12em; text-transform: uppercase; }
+    h1 { max-width: 780px; margin: 13px 0 18px; font-size: clamp(2.5rem, 6vw, 4.6rem); line-height: 1.05; letter-spacing: -.045em; }
+    .hero p { max-width: 700px; margin: 0; color: #d3e1e1; font-size: clamp(1.05rem, 2vw, 1.2rem); }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+    .button { display: inline-flex; align-items: center; justify-content: center; min-height: 46px; padding: 10px 18px; border: 1px solid transparent; border-radius: 999px; background: #7ad0c7; color: #09282e; font-weight: 750; text-decoration: none; }
+    .button.secondary { border-color: #73909a; background: transparent; color: white; }
+    .button:hover { filter: brightness(1.05); }
+    main section { padding: 72px 0; }
+    .section-head { display: flex; align-items: end; justify-content: space-between; gap: 24px; margin-bottom: 28px; }
+    .kicker { margin: 0 0 5px; color: var(--teal); font-size: .8rem; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
+    h2 { margin: 0; font-size: clamp(1.8rem, 3vw, 2.35rem); line-height: 1.15; letter-spacing: -.025em; }
+    .section-intro { max-width: 540px; margin: 0; color: var(--muted); }
+    .projects { background: #f0f5f3; }
+    .project-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+    .card { display: flex; flex-direction: column; min-height: 100%; padding: 27px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); box-shadow: 0 9px 28px rgba(16, 45, 58, .045); }
+    .card-top { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 13px; }
+    .number { color: #8a9a9f; font-size: .83rem; font-weight: 800; letter-spacing: .1em; }
+    .kind { padding: 4px 10px; border-radius: 999px; background: var(--teal-light); color: #096c70; font-size: .75rem; font-weight: 750; }
+    h3 { margin: 0 0 10px; font-size: 1.3rem; line-height: 1.25; }
+    .card p { margin: 0 0 13px; color: var(--muted); }
+    .card .result { margin-top: auto; padding-top: 4px; color: var(--ink); }
+    .result strong { color: var(--teal); }
+    .tags { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 16px; }
+    .tag { padding: 4px 9px; border: 1px solid #d9e4e2; border-radius: 7px; color: #43565e; font-size: .78rem; line-height: 1.45; }
+    .project-links { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 18px; }
+    .project-link { display: inline-flex; align-items: center; min-height: 38px; padding: 7px 11px; border: 1px solid #b9d9d5; border-radius: 8px; color: #086c70; font-size: .85rem; font-weight: 750; text-decoration: none; }
+    .project-link:hover { background: var(--teal-light); }
+    .experience-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    .experience { padding: 24px 25px; border-left: 3px solid var(--teal); background: #f4f7f5; }
+    .experience h3 { margin-bottom: 3px; }
+    .date { color: var(--muted); font-size: .9rem; }
+    .experience p { margin: 12px 0 0; color: var(--muted); }
+    .about { background: var(--navy); color: white; }
+    .about h2 { color: white; }
+    .about .kicker { color: #93d4cf; }
+    .about-grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: 50px; align-items: start; }
+    .about-copy { max-width: 620px; color: #d3e1e1; }
+    .about-copy p { margin: 17px 0 0; }
+    .about-list { display: grid; gap: 17px; }
+    .about-item { padding-bottom: 15px; border-bottom: 1px solid #38535d; }
+    .about-item strong { display: block; margin-bottom: 4px; color: #93d4cf; font-size: .83rem; letter-spacing: .08em; text-transform: uppercase; }
+    .about-item span { color: #ecf4f2; }
+    .skill-list { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 24px; }
+    .skill { padding: 7px 11px; border: 1px solid #4d6973; border-radius: 8px; color: #e5f2f0; font-size: .87rem; }
+    .contact { padding: 61px 0; }
+    .contact-inner { display: flex; align-items: center; justify-content: space-between; gap: 28px; padding: 30px 34px; border: 1px solid var(--line); border-radius: var(--radius); background: white; }
+    .contact p { margin: 8px 0 0; color: var(--muted); }
+    .contact-links { display: flex; flex-wrap: wrap; gap: 10px; }
+    .contact-links a { padding: 9px 13px; border: 1px solid var(--line); border-radius: 9px; color: var(--teal); font-size: .9rem; font-weight: 700; text-decoration: none; }
+    .contact-links a:hover { background: var(--teal-light); }
+    footer { padding: 22px 0; border-top: 1px solid var(--line); color: var(--muted); font-size: .85rem; }
+    footer .wrap { display: flex; justify-content: space-between; gap: 20px; }
+    @media (max-width: 760px) {
+      .wrap { width: min(var(--max), calc(100% - 32px)); }
+      .nav { min-height: 64px; }
+      .nav-links { gap: 14px; }
+      .nav-links a { font-size: .82rem; }
+      .hero { padding: 63px 0 68px; }
+      main section { padding: 56px 0; }
+      .section-head { align-items: start; flex-direction: column; }
+      .project-grid, .experience-grid, .about-grid { grid-template-columns: 1fr; }
+      .about-grid { gap: 30px; }
+      .contact-inner { align-items: start; flex-direction: column; padding: 25px; }
+    }
+    @media (max-width: 440px) {
+      .brand { font-size: .93rem; }
+      .nav-links { gap: 10px; }
+      .nav-links a { font-size: .76rem; }
+      .card { padding: 22px; }
+      footer .wrap { flex-direction: column; gap: 4px; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a class="brand" href="#home">David Alexander</a>
+      <div class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+    <div class="hero" id="home">
+      <div class="wrap hero-inner">
+        <div class="eyebrow">Data Analyst · Ikeja, Lagos</div>
+        <h1>Data analysis for practical decisions.</h1>
+        <p>I work with sales, customer and public health data - cleaning it, finding patterns and explaining what the findings mean.</p>
+        <div class="actions">
+          <a class="button" href="#projects">Explore my work</a>
+          <a class="button secondary" href="mailto:davode12@gmail.com">Get in touch</a>
+        </div>
+      </div>
+    </div>
+  </header>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+  <main>
+    <section class="projects" id="projects">
+      <div class="wrap">
+        <div class="section-head">
+          <div><p class="kicker">Selected work</p><h2>Projects and analysis</h2></div>
+          <p class="section-intro">Business, research and learning projects. Open a project folder or one of its available files to explore the work.</p>
+        </div>
+        <div class="project-grid" id="project-grid" aria-live="polite"></div>
+      </div>
+    </section>
 
-				<!-- Intro -->
-					<div id="intro">
-						<img src="images\david.jpeg" alt="" class="image fit oval-image" />
-						<h1>THE ELITEALEX<br />
-						PORTFOLIO</h1>
-						<p>📊 Unlocking insights, shaping decisions: Data-driven narratives that drive success. 
-							Dive into my portfolio for a journey through analytics expertise, 
-							transforming raw data into actionable intelligence, one compelling story at a time. 
-							🚀 Let's turn numbers into stories! 📈💡.
-							 <!-- <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="#">HTML5 UP</a><br />
-						and released for free under the <a href="https://html5up.net/license">Creative Commons license</a>.</p> --> 
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+    <section id="experience">
+      <div class="wrap">
+        <div class="section-head">
+          <div><p class="kicker">Experience</p><h2>Analysis in context</h2></div>
+          <p class="section-intro">Work across commercial analysis and research data preparation.</p>
+        </div>
+        <div class="experience-grid">
+          <article class="experience">
+            <h3>Sales Analyst · Chybuzu</h3>
+            <div class="date">October 2022 - April 2024 · Ikeja</div>
+            <p>Analyzed medical equipment and disposable product performance, customer preferences and competitors. Findings helped guide product selection and reduce risk from slow-moving stock.</p>
+          </article>
+          <article class="experience">
+            <h3>Contract Data Analyst · Independent projects</h3>
+            <div class="date">June 2024 - Present</div>
+            <p>Cleaned and transformed health data for a researcher's regional analysis of health conditions across West Africa, preparing data for Power BI reporting.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">PROJECTS</a>
-					</header>
+    <section class="about" id="about">
+      <div class="wrap about-grid">
+        <div class="about-copy">
+          <p class="kicker">About</p>
+          <h2>Curious about what the data can explain.</h2>
+          <p>I have a Bachelor of Technology in Physics Electronics from the Federal University of Technology, Akure. My analytics work combines structured problem-solving with clear reporting for people who need to make decisions.</p>
+          <div class="skill-list" aria-label="Tools and skills">
+            <span class="skill">SQL</span><span class="skill">Python</span><span class="skill">Excel</span><span class="skill">Google Sheets</span>
+            <span class="skill">Power BI</span><span class="skill">Tableau</span><span class="skill">Jupyter Notebook</span><span class="skill">Git</span>
+            <span class="skill">Microsoft Fabric</span>
+          </div>
+        </div>
+        <div class="about-list">
+          <div class="about-item"><strong>Education</strong><span>BTech, Physics Electronics · Federal University of Technology, Akure · 2019</span></div>
+          <div class="about-item"><strong>Professional training</strong><span>Google Professional Data Analytics · IBM Data Analytics · ALX Data Analytics, Data Engineering and Data Science</span></div>
+          <div class="about-item"><strong>Current focus</strong><span>Building data engineering skills with Microsoft Fabric</span></div>
+        </div>
+      </div>
+    </section>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">ALL PROJECTS</a></li>
-							<li><a href="generic.html">FULL REPORTS</a></li>
-							<li><a href="elements.html">PROJECT FILES</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+    <section class="contact" id="contact">
+      <div class="wrap contact-inner">
+        <div><p class="kicker">Contact</p><h2>Let’s talk about data work.</h2><p>Based in Ikeja, Lagos, Nigeria.</p></div>
+        <div class="contact-links">
+          <a href="mailto:davode12@gmail.com">Email</a>
+          <a href="https://www.linkedin.com/in/david-alexander1/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/TheEliteCode" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
 
-				<!-- Main -->
-					<div id="main">
-
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<span class="date">Feb 25, 2024</span>
-									<h2><a href="generic.html">PIZZA SALES<br />
-									ANALYSIS</a></h2>
-									<p>I conducted an analysis on pizza sales to uncover key insights into the company's business performance.
-										 The project involved examining sales trends, customer preferences, and operational efficiency,
-										  providing data-driven recommendations to enhance profitability and customer satisfaction using specific KPIs</p>
-								</header>
-								<a href="Projects\pizza_sales_analysis\Pizza_sales_dashboard.pbix" class="image main"><img src="Projects\pizza_sales_analysis\Pizza Sales Images-20240312T121301Z-001\Pizza Sales Images\DASHBOARD.PNG"
-									 alt="Pizza Sales" />Pizza Sales Dashboard (Power BI)</a>
-								<ul class="actions special">
-									<li><a href="generic.html" class="button large">Full Report</a></li>
-								</ul>
-							</article>
-
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<span class="date">April 24, 2017</span>
-										<h2><a href="generic2.html">LONDON BIKES<br />
-										ANALYSIS</a></h2>
-									</header>
-									<a href="Projects\London_Bikes_Analysis\London_Bikes.twbx" class="image fit"><img src="Projects\London_Bikes_Analysis\london_bikes.PNG" alt="london_bikes" />London Bikes Dashboard (Tableau Public)</a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="generic2.html" class="button">Full Report</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 22, 2017</span>
-										<h2><a href="generic3.html">HOUSE SALES<br />
-										ANALYSIS</a></h2>
-									</header>
-									<a href="Projects\House_sales_Analysis\KingCountyHouseSales.twbx" class="image fit"><img src="Projects/House_sales_Analysis/KingCountyHouseSales.png" alt="KingCountyHouseSales" />KingCountyHouseSales (Tableau Dashboard)</a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="generic3.html" class="button">Full Report</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 18, 2017</span>
-										<h2><a href="#">Ante mattis<br />
-										interdum dolor</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 14, 2017</span>
-										<h2><a href="#">Tempus sed<br />
-										nulla imperdiet</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 11, 2017</span>
-										<h2><a href="#">Odio magna<br />
-										sed consectetur</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 7, 2017</span>
-										<h2><a href="#">Augue lorem<br />
-										primis vestibulum</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-							</section>
-
-						<!-- Footer -->
-							<footer>
-								<div class="pagination">
-									<!--<a href="#" class="previous">Prev</a>-->
-									<a href="#" class="page active">1</a>
-									<a href="#" class="page">2</a>
-									<a href="#" class="page">3</a>
-									<!-- <span class="extra">&hellip;</span>
-									<a href="#" class="page">8</a>
-									<a href="#" class="page">9</a>
-									<a href="#" class="page">10</a>
-									<a href="#" class="next">Next</a> -->
-								</div>
-							</footer>
-
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-						</section>
-						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>Unity Road, off Toyin Street<br />
-								Ikeja, Lagos.</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">+2348132318327, +2348164033973</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="davode12@gmail.com">davode12@gmail.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
-
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; TheEliteAlex</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+  <footer><div class="wrap"><span>David Alexander · Data Analyst</span><span>Lagos, Nigeria</span></div></footer>
+  <script src="projects.js"></script>
+  <script src="render-projects.js"></script>
+</body>
 </html>
