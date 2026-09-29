@@ -89,7 +89,12 @@ window.portfolioProjects = [
       "Git",
       "Power BI"
     ],
-    "links": []
+    "links": [
+      {
+    "label": "Case study",
+    "url": "https://github.com/TheEliteCode/Data-Analysis-Portfolio/blob/main/Projects/West_Africa_Health_Data/README.md"
+  }
+             ]
   },
   {
     "title": "King County house sales",
