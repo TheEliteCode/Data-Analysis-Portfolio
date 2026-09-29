@@ -100,7 +100,7 @@ window.portfolioProjects = [
     "title": "King County house sales",
     "type": "Data visualization",
     "summary": "Analyzed King County house sales in Tableau, exploring price patterns across ZIP codes and over time. The dashboard also examines house prices alongside property features such as living area, lot size, bedrooms, bathrooms, condition, and view.",
-    "finding": "Explore the dashboard and workbook in the project files.",
+    "finding": "The dashboard maps sales by ZIP code and tracks house prices over time.",
     "tools": [
       "Tableau",
       "Excel"
