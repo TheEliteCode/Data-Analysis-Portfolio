@@ -71,7 +71,12 @@ window.portfolioProjects = [
       "SQL",
       "Tableau"
     ],
-    "links": []
+    "links": [ 
+      {
+    "label": "Case study",
+    "url": "https://github.com/TheEliteCode/Data-Analysis-Portfolio/blob/main/Projects/Medical_Equipment_Sales_Analysis/README.md"
+    }
+    ]
   },
   {
     "title": "West Africa health data preparation",
