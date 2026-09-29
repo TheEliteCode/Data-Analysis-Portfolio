@@ -47,7 +47,12 @@ window.portfolioProjects = [
       "Warehouse",
       "Power BI"
     ],
-    "links": []
+    "links": [
+       {
+    "label": "GitHub project",
+    "url": "https://github.com/TheEliteCode/mov_rec_project"
+  }
+    ]
   },
   {
     "title": "Medical equipment sales analysis",
