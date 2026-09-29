@@ -31,7 +31,12 @@ window.portfolioProjects = [
       "Power BI",
       "Excel"
     ],
-    "links": []
+    "links": [
+      {
+    "label": "Project summary",
+    "url": "https://github.com/TheEliteCode/Data-Analysis-Portfolio/blob/main/Projects/Maji_Ndogo_Analysis/README.md"
+  }
+    ]
   },
   {
     "title": "Movie recommendation data pipeline",
