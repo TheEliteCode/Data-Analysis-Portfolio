@@ -118,7 +118,7 @@ window.portfolioProjects = [
     "title": "London bike sharing",
     "type": "Data analysis and visualization",
     "summary": "Explored London bike-sharing data using Python and Tableau. The dashboard tracks 2.1 million rides over time with an eight-week moving average, and compares ride activity with temperature and wind speed.",
-    "finding": "The dashboard maps sales by ZIP code and tracks house prices over time.",
+    "finding": "The dashboard summarizes 2,137,913 rides and uses an eight-week moving average to show changes in ride volume over time.",
     "tools": [
       "Python",
       "Jupyter Notebook",
