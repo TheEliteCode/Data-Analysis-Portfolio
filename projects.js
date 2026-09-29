@@ -167,8 +167,8 @@ window.portfolioProjects = [
   {
     "title": "Pizza sales dashboard",
     "type": "Business intelligence",
-    "summary": "Power BI sales dashboard organized around revenue, average order value, pizzas sold, order count and pizzas per order.",
-    "finding": "The project brief defines the main sales KPIs; open the dashboard and brief in the repository.",
+    "summary": "Built a Power BI dashboard tracking revenue, order value, pizzas sold and order volume, with comparisons of pizza performance by revenue, quantity and orders.",
+    "finding": "The dashboard reports $817.86K in revenue from 21,350 orders and 49,574 pizzas sold, with an average order value of $38.31 and 2.32 pizzas per order.",
     "tools": [
       "Power BI"
     ],
