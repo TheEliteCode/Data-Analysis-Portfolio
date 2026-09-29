@@ -23,7 +23,7 @@ window.portfolioProjects = [
   {
     "title": "Maji Ndogo water access",
     "type": "ALX project",
-    "summary": "End-to-end analysis of access to healthy drinking water, combining data with community feedback about boreholes and water sources.",
+    "summary": "Investigated barriers to reliable access to clean drinking water using SQL, Python, Excel, and Power BI. Analyzed survey responses about water sources, borehole access, material quality, and alleged corruption among officials responsible for water provision.",
     "finding": "The analysis examined corruption concerns, limited borehole coverage, construction materials and unreliable access as factors behind reliance on river and rainwater.",
     "tools": [
       "SQL",
