@@ -1,6 +1,23 @@
 /* Add, edit or remove project entries in this list. See EDITING-GUIDE.md. */
 window.portfolioProjects = [
   {
+  "title": "Nigeria staple food price trends",
+  "type": "Personal project",
+  "summary": "Prepared and analyzed modeled staple-food price estimates across 67 Nigerian local markets from 2007 to 2026 using Python, pandas, and MySQL. Built a Power BI report with commodity filtering, monthly price trends, year-over-year changes, and state comparisons across six staple products.",
+  "finding": "In the August 2026 snapshot, modeled estimates rose year over year for beans and yam, while estimates for gari, maize, rice, and sorghum declined. Results are equal-weighted market means and describe the published estimates; they do not establish causes or household affordability.",
+  "tools": ["Python", "Pandas", "MySQL", "Power BI"],
+  "links": [
+    {
+      "label": "Project folder",
+      "url": "https://github.com/TheEliteCode/Data-Analysis-Portfolio/tree/main/Projects/nigeria-staple-food-prices"
+    },
+    {
+      "label": "Case study",
+      "url": "https://github.com/TheEliteCode/Data-Analysis-Portfolio/blob/main/Projects/nigeria-staple-food-prices/README.md"
+    }
+  ]
+}
+  {
     "title": "Cyclistic bike-share usage",
     "type": "Personal project",
     "summary": "Compared casual riders and annual members using ride duration, frequency, start times and weekday patterns to inform membership marketing.",
