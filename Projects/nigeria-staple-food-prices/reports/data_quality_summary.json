@@ -1,0 +1,57 @@
+{
+  "source_file": "NGA_RTFP_mkt_2007_2026-08-24.csv",
+  "source_rows": 15812,
+  "raw_source_rows_including_aggregates": 17464,
+  "source_columns": 137,
+  "country_values": [
+    "Nigeria"
+  ],
+  "currency_values": [
+    "NGN"
+  ],
+  "source_date_min": "2007-01-01",
+  "source_date_max": "2026-08-01",
+  "distinct_market_ids_in_file": 67,
+  "distinct_source_geo_ids_including_aggregates": 74,
+  "excluded_aggregate_geo_ids": 7,
+  "excluded_aggregate_rows": 1652,
+  "excluded_aggregate_labels": [
+    "Geopolitical Zone",
+    "Market Average",
+    "National Average"
+  ],
+  "distinct_states_in_file": 14,
+  "duplicate_market_month_rows": 0,
+  "missing_market_id_rows": 0,
+  "negative_close_estimates": 0,
+  "missing_close_estimates": {
+    "c_beans": 0,
+    "c_eggs": 0,
+    "c_fish": 0,
+    "c_gari_fao": 0,
+    "c_groundnuts": 0,
+    "c_maize_fao": 0,
+    "c_maize_flour": 0,
+    "c_meat_beef": 0,
+    "c_meat_goat": 0,
+    "c_milk": 0,
+    "c_millet": 0,
+    "c_onions": 0,
+    "c_rice": 0,
+    "c_rice_fao": 0,
+    "c_sorghum_fao": 0,
+    "c_yam": 0
+  },
+  "core_staple_products": [
+    "beans",
+    "gari_fao",
+    "maize_fao",
+    "rice_fao",
+    "sorghum_fao",
+    "yam"
+  ],
+  "core_staple_rows_after_reshape": 94872,
+  "source_count_note": "The raw file has 74 geo_id values, including 7 summary geography IDs (Geopolitical Zone, National Average, Market Average). These were excluded to retain physical market rows only; the catalog reports 73 markets, while 67 distinct local market IDs remain after exclusions.",
+  "state_label_note": "The source label Kano State (1) is normalized to Kano for analysis; the original spelling is retained in dim_market.csv.",
+  "aggregation_note": "National and state monthly summaries are equal-weighted means of physical market estimates; they are not population-weighted or official CPI statistics."
+}

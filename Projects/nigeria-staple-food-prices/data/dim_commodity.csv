@@ -1,0 +1,17 @@
+commodity_code,commodity_name,source_unit,in_core_staple_dashboard
+beans,Beans,2.5 KG,True
+eggs,Eggs,30 pcs,False
+fish,Fish,1 KG,False
+gari_fao,Gari (FAO series),1 Kg,True
+groundnuts,Groundnuts,2.2 KG,False
+maize_fao,Maize (FAO series),1 Kg,True
+maize_flour,Maize Flour,2.1 KG,False
+meat_beef,Meat Beef,1 KG,False
+meat_goat,Meat Goat,1 KG,False
+milk,Milk,400 G,False
+millet,Millet,2.6 KG,False
+onions,Onions,0.5 KG,False
+rice,Rice,2.8 KG,False
+rice_fao,Rice (FAO series),1 Kg,True
+sorghum_fao,Sorghum (FAO series),1 Kg,True
+yam,Yam,2.5 KG,True

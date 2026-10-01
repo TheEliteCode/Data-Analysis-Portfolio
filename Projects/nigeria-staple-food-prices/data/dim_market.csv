@@ -1,0 +1,68 @@
+market_id,country_code,country_name,state_name,source_state_label,local_government_area,market_name,latitude,longitude
+gid_5150000073600000,NGA,Nigeria,Abia,Abia,Oboma Ngwa,Aba,5.15,7.36
+gid_118600000131500000,NGA,Nigeria,Borno,Borno,Konduga,Abba Gamaram,11.86,13.15
+gid_128700000110400000,NGA,Nigeria,Yobe,Yobe,Karasuwa,Bade (Gashua),12.87,11.04
+gid_118700000131200000,NGA,Nigeria,Borno,Borno,Konduga,Baga Road,11.87,13.12
+gid_115200000136900000,NGA,Nigeria,Borno,Borno,Konduga,Bama,11.52,13.69
+gid_115400000137000000,NGA,Nigeria,Borno,Borno,Konduga,Banki,11.54,13.7
+gid_117500000119600000,NGA,Nigeria,Yobe,Yobe,Damaturu,Bayantasha,11.75,11.96
+gid_121500000117600000,NGA,Nigeria,Yobe,Yobe,Tarmuwa,Biriri,12.15,11.76
+gid_106100000121900000,NGA,Nigeria,Borno,Borno,Biu,Biu,10.61,12.19
+gid_118500000131400000,NGA,Nigeria,Borno,Borno,Konduga,Bolori Stores,11.85,13.14
+gid_118500000131600000,NGA,Nigeria,Borno,Borno,Maiduguri,Budum,11.85,13.16
+gid_118300000130900000,NGA,Nigeria,Borno,Borno,Konduga,Bullunkutu,11.83,13.09
+gid_125000000115000000,NGA,Nigeria,Yobe,Yobe,Borsari,Bursari,12.5,11.5
+gid_118500000131700000,NGA,Nigeria,Borno,Borno,Maiduguri,Custom,11.85,13.17
+gid_116800000113400000,NGA,Nigeria,Yobe,Yobe,Fune,Damagum,11.68,11.34
+gid_130100000125600000,NGA,Nigeria,Borno,Borno,Mobbar,Damassack (CBM),13.01,12.56
+gid_117400000119600000,NGA,Nigeria,Yobe,Yobe,Damaturu,Damaturu,11.74,11.96
+gid_117400000119700000,NGA,Nigeria,Yobe,Yobe,Damaturu,Damaturu (Sunday Market),11.74,11.97
+gid_111600000127600000,NGA,Nigeria,Borno,Borno,Damboa,Damboa,11.16,12.76
+gid_11420000072000000,NGA,Nigeria,Katsina,Katsina,Dandume,Dandume,11.42,7.2
+gid_12090000084300000,NGA,Nigeria,Kano,Kano,Dawakin Tofa,Dawanau,12.09,8.43
+gid_120400000139100000,NGA,Nigeria,Borno,Borno,Mafa,Dikwa Central,12.04,13.91
+gid_124900000132100000,NGA,Nigeria,Borno,Borno,Nganzai,Gajiram,12.49,13.21
+gid_118500000131800000,NGA,Nigeria,Borno,Borno,Maiduguri,Gamboru,11.85,13.18
+gid_128900000119200000,NGA,Nigeria,Yobe,Yobe,Geidam,Geidam,12.89,11.92
+gid_11280000074200000,NGA,Nigeria,Kaduna,Kaduna,Giwa,Giwa,11.28,7.42
+gid_102800000111700000,NGA,Nigeria,Gombe,Gombe,Akko,Gombe,10.28,11.17
+gid_101700000127400000,NGA,Nigeria,Adamawa,Adamawa,Girie,Gombi,10.17,12.74
+gid_112900000120000000,NGA,Nigeria,Yobe,Yobe,Gujba,Gujba (Buni Yadi),11.29,12.0
+gid_12360000095800000,NGA,Nigeria,Jigawa,Jigawa,Kaugama,Gujungu,12.36,9.58
+gid_108100000117300000,NGA,Nigeria,Yobe,Yobe,Gulani,Gulani (Tettaba),10.81,11.73
+gid_12490000046400000,NGA,Nigeria,Kebbi,Kebbi,Gwandu,Gwandu,12.49,4.64
+gid_110900000137000000,NGA,Nigeria,Borno,Borno,Gwoza,Gwoza Central,11.09,13.7
+gid_7400000039200000,NGA,Nigeria,Oyo,Oyo,Ibadan North,Ibadan,7.4,3.92
+gid_13640000052800000,NGA,Nigeria,Sokoto,Sokoto,Gada,Illela (CBM),13.64,5.28
+gid_122000000108800000,NGA,Nigeria,Yobe,Yobe,Jakusko,Jakusko,12.2,10.88
+gid_92800000124000000,NGA,Nigeria,Adamawa,Adamawa,Demsa,Jimeta Grain,9.28,12.4
+gid_12000000085300000,NGA,Nigeria,Kano,Kano State (1),Kano,Kano,12.0,8.53
+gid_118600000131900000,NGA,Nigeria,Borno,Borno,Maiduguri,Kashuwan Shanu,11.86,13.19
+gid_12600000065900000,NGA,Nigeria,Zamfara,Zamfara,Kaura Namoda,Kaura Namoda,12.6,6.59
+gid_116600000134200000,NGA,Nigeria,Borno,Borno,Konduga,Konduga,11.66,13.42
+gid_118600000131800000,NGA,Nigeria,Borno,Borno,Maiduguri,Kusawam Shanu,11.86,13.18
+gid_6610000034000000,NGA,Nigeria,Lagos,Lagos,Kosofe,Lagos,6.61,3.4
+gid_12920000099000000,NGA,Nigeria,Yobe,Yobe,Machina,Machina Central,12.92,9.9
+gid_108900000136300000,NGA,Nigeria,Adamawa,Adamawa,Madagali,Madagali,10.89,13.63
+gid_119200000136000000,NGA,Nigeria,Borno,Borno,Mafa,Mafa,11.92,13.6
+gid_121100000128300000,NGA,Nigeria,Borno,Borno,Magumeri,Magumeri Central,12.11,12.83
+gid_13180000082300000,NGA,Nigeria,Katsina,Katsina,Mai'Adua,Mai Adoua (CBM),13.18,8.23
+gid_118300000131500000,NGA,Nigeria,Borno,Borno,Maiduguri,Maiduguri,11.83,13.15
+gid_105700000135300000,NGA,Nigeria,Adamawa,Adamawa,Michika,Michika,10.57,13.53
+gid_118300000131600000,NGA,Nigeria,Borno,Borno,Maiduguri,Monday,11.83,13.16
+gid_126700000136200000,NGA,Nigeria,Borno,Borno,Guzamala,Monguno,12.67,13.62
+gid_102700000132600000,NGA,Nigeria,Adamawa,Adamawa,Hong,Mubi,10.27,13.26
+gid_103800000133100000,NGA,Nigeria,Adamawa,Adamawa,Hong,Mubi North,10.38,13.31
+gid_118600000110700000,NGA,Nigeria,Yobe,Yobe,Nangere,Nangere,11.86,11.07
+gid_123700000142200000,NGA,Nigeria,Borno,Borno,Ngala,Ngala,12.37,14.22
+gid_94600000120300000,NGA,Nigeria,Adamawa,Adamawa,Numan,Ngalang,9.46,12.03
+gid_116900000116200000,NGA,Nigeria,Yobe,Yobe,Fune,Ngelzarma,11.69,11.62
+gid_128700000104500000,NGA,Nigeria,Yobe,Yobe,Nguru,Nguru,12.87,10.45
+gid_117100000110800000,NGA,Nigeria,Yobe,Yobe,Potiskum,Potiskum,11.71,11.08
+gid_112300000137800000,NGA,Nigeria,Borno,Borno,Gwoza,Pulka,11.23,13.78
+gid_120200000144900000,NGA,Nigeria,Borno,Borno,Kala,Rann,12.02,14.49
+gid_10420000086800000,NGA,Nigeria,Kaduna,Kaduna,Lere,Saminaka,10.42,8.68
+gid_102200000120500000,NGA,Nigeria,Borno,Borno,Shani,Shani Main Market,10.22,12.05
+gid_118100000131800000,NGA,Nigeria,Borno,Borno,Maiduguri,Tashan Bama,11.81,13.18
+gid_131500000115400000,NGA,Nigeria,Yobe,Yobe,Yunusari,Yunusari,13.15,11.54
+gid_130600000111700000,NGA,Nigeria,Yobe,Yobe,Yusufari,Yusufari,13.06,11.17
