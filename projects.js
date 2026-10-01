@@ -15,8 +15,8 @@ window.portfolioProjects = [
       "label": "Case study",
       "url": "https://github.com/TheEliteCode/Data-Analysis-Portfolio/blob/main/Projects/nigeria-staple-food-prices/README.md"
     }
-  ]
-}
+   ]
+  },
   {
     "title": "Cyclistic bike-share usage",
     "type": "Personal project",
