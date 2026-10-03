@@ -1,5 +1,28 @@
 /* Add, edit or remove project entries in this list. See EDITING-GUIDE.md. */
 window.portfolioProjects = [
+    {
+    "title": "HR attrition and retention analysis",
+    "type": "Personal project",
+    "summary": "Analyzed attrition patterns in a fictional 1,470-record IBM HR dataset using Google Sheets, Python, MySQL, and Power BI. Compared group rates by overtime, age, tenure, income, travel, and job satisfaction, and built a two-page dashboard.",
+    "finding": "Overall attrition was 16.12%. The rate was 30.53% for employees with overtime versus 10.44% without, and 29.82% for employees with 0–2 years at the company versus 8.13% for those with 11+ years. These are descriptive patterns, not causes.",
+    "tools": [
+      "Google Sheets",
+      "Python",
+      "Pandas",
+      "MySQL",
+      "Power BI"
+    ],
+    "links": [
+      {
+        "label": "Project repository",
+        "url": "https://github.com/TheEliteCode/HR-Attrition-Analysis"
+      },
+      {
+        "label": "Project README",
+        "url": "https://github.com/TheEliteCode/HR-Attrition-Analysis/blob/main/README.md"
+      }
+    ]
+  },
   {
   "title": "Nigeria staple food price trends",
   "type": "Personal project",
